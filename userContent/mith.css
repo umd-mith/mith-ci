@@ -1,0 +1,37 @@
+#top-panel {
+  margin-bottom: 3pt;
+  min-height: 30px;
+  background: #f0f0f0 url(mith-logo.png) no-repeat left center;
+  border-bottom: 1px solid #bbb;
+}
+
+/*#left-top-nav {
+  text-decoration: none;
+  font-weight: bold;
+}*/
+
+#main-panel div form {
+  margin-top: 10px;
+}
+
+#searchform {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#login-field span a {
+  color: black;
+}
+
+/*td#top-panel table tbody tr td a {
+  min-height: 34px;
+}*/
+
+td#top-panel table tbody tr td a img {
+  display: none;
+}
+
+#l10n-footer {
+  display: none;
+}
+

@@ -1,0 +1,13 @@
+*.key
+*.log
+*.bak
+workspace/
+jobs/*/builds/
+jobs/*/lastStable
+jobs/*/lastSuccessful
+jobs/*/modules/
+jobs/*/nextBuildNumber
+jobs/*/config.xml
+.m2/
+.ssh/
+
