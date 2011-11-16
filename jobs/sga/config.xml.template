@@ -56,10 +56,9 @@
   <concurrentBuild>false</concurrentBuild>
   <rootModule>
     <groupId>edu.umd.mith.sga</groupId>
-    <artifactId>cocoon</artifactId>
+    <artifactId>sga</artifactId>
   </rootModule>
-  <rootPOM>cocoon/pom.xml</rootPOM>
-  <goals>validate package</goals>
+  <goals>package</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>false</incrementalBuild>
   <usePrivateRepository>false</usePrivateRepository>

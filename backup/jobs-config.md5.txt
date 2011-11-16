@@ -1,2 +1,2 @@
 25b32b2fb7e485d31c5fcb5ddff662a1  ../jobs/mishnah/config.xml
-484c48390eb65889476c89a14b297c17  ../jobs/sga/config.xml
+25b40a1fe98191375a4915092b5a1c29  ../jobs/sga/config.xml
