@@ -1,2 +1,3 @@
-25b32b2fb7e485d31c5fcb5ddff662a1  ../jobs/mishnah/config.xml
+6a9f316ce88b94f41f286a94b488863d  ../jobs/mishnah/config.xml
+b11512f974ea57d00907baba8a632bf3  ../jobs/mith-jvm-lib/config.xml
 25b40a1fe98191375a4915092b5a1c29  ../jobs/sga/config.xml

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <maven2-moduleset>
   <actions/>
-  <description>The Digital Mishnah Project aims to create a digital critical edition of the Mishnah. This will involve transcribing and encoding major (ideally all) manuscript witnesses to the text of the Mishnah, as well as citations in medieval and early modern commentaries. The project is in its initial phases and is using Bava Metsia Ch. 2 to develop a proof of concept.</description>
+  <description></description>
   <keepDependencies>false</keepDependencies>
   <properties>
     <com.coravy.hudson.plugins.github.GithubProjectProperty>
-      <projectUrl>https://github.com/umd-mith/mishnah/</projectUrl>
+      <projectUrl>https://github.com/umd-mith/mith-jvm-lib/</projectUrl>
     </com.coravy.hudson.plugins.github.GithubProjectProperty>
   </properties>
   <scm class="hudson.plugins.git.GitSCM">
@@ -14,7 +14,7 @@
       <hudson.plugins.git.UserRemoteConfig>
         <name>origin</name>
         <refspec>+refs/heads/*:refs/remotes/origin/*</refspec>
-        <url>git://github.com/umd-mith/mishnah.git</url>
+        <url>git@github.com:umd-mith/mith-jvm-lib.git</url>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -32,7 +32,7 @@
     <buildChooser class="hudson.plugins.git.util.DefaultBuildChooser"/>
     <gitTool>Default</gitTool>
     <browser class="hudson.plugins.git.browser.GithubWeb">
-      <url>https://github.com/umd-mith/mishnah/</url>
+      <url>https://github.com/umd-mith/mith-jvm-lib/</url>
     </browser>
     <submoduleCfg class="list"/>
     <relativeTargetDir></relativeTargetDir>
@@ -55,8 +55,8 @@
   </triggers>
   <concurrentBuild>false</concurrentBuild>
   <rootModule>
-    <groupId>edu.umd.mith.mishnah</groupId>
-    <artifactId>mishnah</artifactId>
+    <groupId>edu.umd.mith</groupId>
+    <artifactId>lib</artifactId>
   </rootModule>
   <goals>package</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
@@ -71,17 +71,7 @@
   <settingConfigId></settingConfigId>
   <globalSettingConfigId></globalSettingConfigId>
   <reporters/>
-  <publishers>
-    <hudson.plugins.deploy.DeployPublisher>
-      <adapter class="hudson.plugins.deploy.tomcat.Tomcat6xAdapter">
-        <userName>mishnah</userName>
-        <password><!-- Insert password here. --></password>
-        <url>http://174.129.234.202</url>
-      </adapter>
-      <war>cocoon/viewer/target/mishnah.war</war>
-      <onFailure>false</onFailure>
-    </hudson.plugins.deploy.DeployPublisher>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
   <prebuilders/>
   <postbuilders/>
