@@ -1,3 +1,4 @@
-6a9f316ce88b94f41f286a94b488863d  ../jobs/mishnah/config.xml
-b11512f974ea57d00907baba8a632bf3  ../jobs/mith-jvm-lib/config.xml
-25b40a1fe98191375a4915092b5a1c29  ../jobs/sga/config.xml
+9c943467e8a669bf16823e303d3afbc7  ../jobs/activeocr/config.xml
+0c692791801610a358bfdda212810e06  ../jobs/mishnah/config.xml
+78628015d3fa6694bda0fe5ef035eb85  ../jobs/mith-jvm-lib/config.xml
+8079f527413f9a4a2619ef2f14f2cc4b  ../jobs/sga/config.xml

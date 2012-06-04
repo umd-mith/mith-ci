@@ -56,7 +56,7 @@
   <concurrentBuild>false</concurrentBuild>
   <rootModule>
     <groupId>edu.umd.mith</groupId>
-    <artifactId>lib</artifactId>
+    <artifactId>mith</artifactId>
   </rootModule>
   <goals>package</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
